@@ -120,7 +120,7 @@ Table of Contents
 
 /* HARDCOVER FRONT */
 .hardcover_front li:first-child {
-	background-color: #eee;
+	background-color: #000000;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -142,10 +142,10 @@ Table of Contents
 }
 
 .book_spine li:first-child {
-	background: #eee;
+	background: #5a5953ed;
 }
 .book_spine li:last-child {
-	background: #333;
+	background: #5a5953ed;
 }
 
 /* thickness of cover */
@@ -162,7 +162,7 @@ Table of Contents
 .book_spine li:first-child:before,
 .book_spine li:last-child:after,
 .book_spine li:last-child:before {
-	background: #f4e8e8e5;
+	background: #5a5953ed;
 }
 
 /* page */
@@ -373,7 +373,7 @@ Table of Contents
 }
 
 .hardcover_back li:last-child:before {
-	box-shadow: 10px -1px 80px 20px #666;
+	box-shadow: 10px -1px 80px 20px #b3b0b6;
 	-webkit-transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(2px) translateY(-78px);
 	-moz-transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(2px) translateY(-78px);
 	transform: rotateX(90deg) rotateZ(90deg) translateZ(-140px) translateX(2px) translateY(-78px);
@@ -576,7 +576,7 @@ Table of Contents
 }
 
 .coverDesign::after {
-	background-image: -webkit-linear-gradient( -135deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
+	background-image: -webkit-linear-gradient( -135deg, rgba(79, 9, 9, 0.45) 0%, transparent 100%);
 	background-image: -moz-linear-gradient( -135deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
 	background-image: linear-gradient( -135deg, rgba(255, 255, 255, 0.45) 0%, transparent 100%);
 	position: absolute;
@@ -627,7 +627,7 @@ Table of Contents
 
 .ribbon {
 	background: #c0392b;
-	color: #fff;
+	color: #0f0101;
 	display: block;
 	font-size: 0.7em;
 	position: absolute;
